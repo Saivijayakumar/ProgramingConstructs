@@ -1,6 +1,5 @@
 const prompt = require("prompt-sync")();
 let number = prompt("Enter a Number : ");
-//let number = 2;
 let isPrime = true;
 if (number === 1) {
     console.log("1 is Neither Prime Nor Composite Number.");
